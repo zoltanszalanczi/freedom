@@ -14,9 +14,8 @@ body {
   }
 
 .content {
-  width: 1200px;
-  max-width: calc(100vw-200px);
-  padding-top: 150px;
+  width: 85%;
+  padding-top: 10%;
   font-family: "Julius Sans One", sans-serif;
   color: rgba(0,0,0,.7);
 }
@@ -27,13 +26,13 @@ p {
 
 .quote {
   text-transform: uppercase;
-  font-size: 30px;
-  letter-spacing: 3px;
+  font-size: 1.8em;
+  letter-spacing: 0.1em;
   line-height: 1.5;
 }
 
 .rousseau {
   font-family: "Brush Script MT";
-  font-size: 20px;
+  font-size: 1.1em;
   line-height: 3;
 }
