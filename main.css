@@ -14,7 +14,7 @@ body {
   }
 
 .content {
-  width: 85%;
+  width: 95%;
   padding-top: 10%;
   font-family: "Julius Sans One", sans-serif;
   color: rgba(0,0,0,.7);
@@ -26,13 +26,34 @@ p {
 
 .quote {
   text-transform: uppercase;
-  font-size: 1.8em;
   letter-spacing: 0.1em;
   line-height: 1.5;
 }
 
 .rousseau {
   font-family: "Brush Script MT";
-  font-size: 1.1em;
   line-height: 3;
+}
+
+img {
+  border-radius: 50%;
+  width: 2.5rem; 
+}
+
+@media screen and (min-width:801px) {
+  .quote {
+    font-size:2rem;
+    }
+  .rousseau{
+    font-size:1rem;
+    }
+}
+  
+  @media screen and (min-width:1501px) {
+  .quote {
+    font-size:2rem;
+    }
+  .rousseau{
+    font-size:1rem;
+    }
 }
